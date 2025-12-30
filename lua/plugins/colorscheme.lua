@@ -12,7 +12,7 @@ return {
     priority = 1000,
     config = function()
       require("rose-pine").setup({
-        variant = "auto", -- auto, main, moon, or dawn
+        variant = "main", -- Changed from "auto" to "main" since auto-dark-mode.nvim handles switching
         dark_variant = "main", -- main, moon, or dawn
         dim_inactive_windows = false,
         extend_background_behind_borders = true,
