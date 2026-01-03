@@ -3,4 +3,4 @@
 -- Add any additional keymaps here
 
 -- Oil.nvim file browser
-vim.keymap.set("n", "<leader>o", "<CMD>Oil<CR>", { desc = "Open parent directory" })
+-- vim.keymap.set("n", "<leader>o", "<CMD>Oil<CR>", { desc = "Open parent directory" })
